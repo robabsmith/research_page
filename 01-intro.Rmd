@@ -1,0 +1,19 @@
+# Introduction
+
+Hi, my name is Robert Smith, and I am based at the [Aalborg University Business School](https://www.business.aau.dk) (2021), this page is just a collection of some of the more recent research that I have been doing with colleagues.
+
+This site is generated using RMarkdown, and it is a place to share ideas for the visual representation of research.
+
+My primary area of research is in macroeconomics, with a focus on Stock-Flow consistent models. These models are relatively large and complex, and visual presentation of the details of these models is normally pretty challenging.
+
+Any comments and suggestions for new ways to communicate / represent material are always welcome.
+
+## Part 2
+
+Is an HTML rendition of the final chapter of my PhD - apart from a few minor modifications to the plotting code, everything you see in that section is generated in RMD, and all of the back-end code is available for your to browse / use. As long as you respect the licence terms.
+
+## Part 3 
+
+Is a collection of custom additions to the `ggplot2` environment (also used in the SFC model chapter) that might make your life easier, if you want to move your legends into a plot, change the angle of the text in the axes etc. It also includes a few interactive plots using the `plotly` environment.
+
+More hopefully to follow soon.
