@@ -81,11 +81,37 @@ This is a simple GitBook with just a small selection of the current and recent r
 
 The vast majority of this work never ends up published, and I figured that it might be put to better use sharing it with the research community.
 
+This page is for anyone that is looking for code to process an SFC model for a report, or just wants to get some ideas about how different data can be visualised can browse the site and borrow and steal whatever is useful.
+
+## Citations are always a bonus
+
+If you do use some of the code, and you're in academia, it would be pretty cool to get a reference (we are measured according to the relevance of our research) and every little bit helps.
+
+The best option for me would be if you refer to my PhD:
+
+  >Smith, R.A.B. (2020). Essays on macroeconomic interactions of sectoral balance sheets. Aalborg Universitetsforlag. Aalborg Universitet. Det Samfundsvidenskabelige Fakultet. Ph.D.-Serien
+
+[OR, you can get the bibtex reference here.s](https://vbn.aau.dk/en/publications/essays-on-macroeconomic-interactions-of-sectoral-balance-sheets)
+
+## Supervision guide for AAU Economics students
+
+The [supervision guide for AAU students](https://robabsmith.github.io/supervision_gitpage/) is a collection of project based tools. The idea is that students should be able to browse the table of contents, and see if there is something that they need on the page. There is too much content for a complete read-through, so I would recommend picking and choosing based on your needs.
+
+
+## Useful links for AAU BS staff
+
+It is a [List of useful links for Aalborg University staff members](https://robabsmith.github.io/aau_info_page/), and would have been pretty useful for me to have when trying fo figure out some of the systems to use when updating my profile and so on.
+
+
+## Rmarkdown
+
 Everything you see on this page is generated using RMarkdown - and as far as possible, sources data directly from the sources needed for the analysis. One major exception is that the SFC model in the second section is solved using Eviews. The output of the model is, which is a simple `.csv` file is processed by the RMD file that creates the chapter - so you can see how the variable names are de-composed and then used as lookup references to generate the document.
 
 The plots, figures and all numerical data included in the text of the chapter are also automated - so that if there is a change to the model, the code finds the correct figures and modifies them in the document.
 
 This is pretty simple to do - but it requires a little forward thinking when organising the names of variables.
+
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

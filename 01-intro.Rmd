@@ -8,12 +8,12 @@ My primary area of research is in macroeconomics, with a focus on Stock-Flow con
 
 Any comments and suggestions for new ways to communicate / represent material are always welcome.
 
-## Part 2
+## SFC model presentation
 
 Is an HTML rendition of the final chapter of my PhD - apart from a few minor modifications to the plotting code, everything you see in that section is generated in RMD, and all of the back-end code is available for your to browse / use. As long as you respect the licence terms.
 
-## Part 3 
+## Data retrieval and plotting
 
-Is a collection of custom additions to the `ggplot2` environment (also used in the SFC model chapter) that might make your life easier, if you want to move your legends into a plot, change the angle of the text in the axes etc. It also includes a few interactive plots using the `plotly` environment.
+Is a collection of custom data downloads, and additions to the `ggplot2` environment (also used in the SFC model chapter) that might make your life easier - for example if you want to move your legends into a plot, change the angle of the text in the axes and so on. It also includes one or two interactive plots using the `plotly` environment.
 
 More hopefully to follow soon.
