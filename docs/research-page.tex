@@ -155,6 +155,34 @@ This is a simple GitBook with just a small selection of the current and recent r
 
 The vast majority of this work never ends up published, and I figured that it might be put to better use sharing it with the research community.
 
+This page is for anyone that is looking for code to process an SFC model for a report, or just wants to get some ideas about how different data can be visualised can browse the site and borrow and steal whatever is useful.
+
+\hypertarget{citations-are-always-a-bonus}{%
+\section{Citations are always a bonus}\label{citations-are-always-a-bonus}}
+
+If you do use some of the code, and you're in academia, it would be pretty cool to get a reference (we are measured according to the relevance of our research) and every little bit helps.
+
+The best option for me would be if you refer to my PhD:
+
+\begin{quote}
+Smith, R.A.B. (2020). Essays on macroeconomic interactions of sectoral balance sheets. Aalborg Universitetsforlag. Aalborg Universitet. Det Samfundsvidenskabelige Fakultet. Ph.D.-Serien
+\end{quote}
+
+\href{https://vbn.aau.dk/en/publications/essays-on-macroeconomic-interactions-of-sectoral-balance-sheets}{OR, you can get the bibtex reference here.s}
+
+\hypertarget{supervision-guide-for-aau-economics-students}{%
+\section{Supervision guide for AAU Economics students}\label{supervision-guide-for-aau-economics-students}}
+
+The \href{https://robabsmith.github.io/supervision_gitpage/}{supervision guide for AAU students} is a collection of project based tools. The idea is that students should be able to browse the table of contents, and see if there is something that they need on the page. There is too much content for a complete read-through, so I would recommend picking and choosing based on your needs.
+
+\hypertarget{useful-links-for-aau-bs-staff}{%
+\section{Useful links for AAU BS staff}\label{useful-links-for-aau-bs-staff}}
+
+It is a \href{https://robabsmith.github.io/aau_info_page/}{List of useful links for Aalborg University staff members}, and would have been pretty useful for me to have when trying fo figure out some of the systems to use when updating my profile and so on.
+
+\hypertarget{rmarkdown}{%
+\section{Rmarkdown}\label{rmarkdown}}
+
 Everything you see on this page is generated using RMarkdown - and as far as possible, sources data directly from the sources needed for the analysis. One major exception is that the SFC model in the second section is solved using Eviews. The output of the model is, which is a simple \texttt{.csv} file is processed by the RMD file that creates the chapter - so you can see how the variable names are de-composed and then used as lookup references to generate the document.
 
 The plots, figures and all numerical data included in the text of the chapter are also automated - so that if there is a change to the model, the code finds the correct figures and modifies them in the document.
@@ -203,20 +231,20 @@ My primary area of research is in macroeconomics, with a focus on Stock-Flow con
 
 Any comments and suggestions for new ways to communicate / represent material are always welcome.
 
-\hypertarget{part-2}{%
-\section{Part 2}\label{part-2}}
+\hypertarget{sfc-model-presentation}{%
+\section{SFC model presentation}\label{sfc-model-presentation}}
 
 Is an HTML rendition of the final chapter of my PhD - apart from a few minor modifications to the plotting code, everything you see in that section is generated in RMD, and all of the back-end code is available for your to browse / use. As long as you respect the licence terms.
 
-\hypertarget{part-3}{%
-\section{Part 3}\label{part-3}}
+\hypertarget{data-retrieval-and-plotting}{%
+\section{Data retrieval and plotting}\label{data-retrieval-and-plotting}}
 
-Is a collection of custom additions to the \texttt{ggplot2} environment (also used in the SFC model chapter) that might make your life easier, if you want to move your legends into a plot, change the angle of the text in the axes etc. It also includes a few interactive plots using the \texttt{plotly} environment.
+Is a collection of custom data downloads, and additions to the \texttt{ggplot2} environment (also used in the SFC model chapter) that might make your life easier - for example if you want to move your legends into a plot, change the angle of the text in the axes and so on. It also includes one or two interactive plots using the \texttt{plotly} environment.
 
 More hopefully to follow soon.
 
-\hypertarget{sfc-model-presentation}{%
-\chapter{SFC model presentation}\label{sfc-model-presentation}}
+\hypertarget{sfc-model-presentation-1}{%
+\chapter{SFC model presentation}\label{sfc-model-presentation-1}}
 
 Flexible rate mortgage loans: An SFC model of the impact of mortgage credit innovations on Danish balance sheet stability
 
@@ -5583,8 +5611,8 @@ variable & description\\
 
 \textbackslash end\{table\}
 
-\hypertarget{data-retrieval-and-plotting}{%
-\chapter{Data retrieval and plotting}\label{data-retrieval-and-plotting}}
+\hypertarget{data-retrieval-and-plotting-1}{%
+\chapter{Data retrieval and plotting}\label{data-retrieval-and-plotting-1}}
 
 The examples used in this section (excluding the plotly interactive plots at the bottom) can all be found in a complete RMarkdown file called ``SingleDocument.Rmd'' in \href{https://github.com/robabsmith/Rmarkdown-project-template}{one of my other GitHub repositories, here.}
 

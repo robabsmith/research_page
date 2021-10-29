@@ -103,11 +103,15 @@ fig:old-age-public-spend
 fig:dst-interestrates-plot
 tab:unnamed-chunk-6
 research-page
+citations-are-always-a-bonus
+supervision-guide-for-aau-economics-students
+useful-links-for-aau-bs-staff
+rmarkdown
 license
 introduction
-part-2
-part-3
 sfc-model-presentation
+data-retrieval-and-plotting
+sfc-model-presentation-1
 sec:fi-fl-sfc-intro
 sec:fi-fl-sfc-lit
 stock-flow-consistent-models
@@ -172,7 +176,7 @@ sec:fi-fl-sfc-model-eq-GOV
 sec:fi-fl-sfc-model-eq-row
 sec:fi-fl-sfc-model-eq-labour
 sec:list-of-variables
-data-retrieval-and-plotting
+data-retrieval-and-plotting-1
 example-data-sourcing-and-manipulation
 loading-the-required-packages
 collecting-the-data-from-the-danmarks-statistik-api
